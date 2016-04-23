@@ -14,9 +14,13 @@
         <a href="/">{{site.title}}<span>&#39;s</span></a>
       </h1>
 
+      <nav class="masthead-nav">
+        {% for pages in site.pages %}
+          <a href="{{ pages.url }}"> {{ pages.title }}</a>
+        {% endfor %}
+      </nav>
     </header>
-
-    {{content}}
+      {{ content }}
   </div>
 </body>
 </html>
