@@ -9,7 +9,7 @@
 title: Minimal blog
 email: blogminimal@minimal.com
 description: "Esse é um blog minimalista criado no curso Jekyll por Willian Justen em 22.04.16"
-baseurl: "/my_blog" # the subpath of your site, e.g. /blog
+baseurl: "/minimal-blog" # the subpath of your site, e.g. /blog
 url: "http://cmpereira.com.br" # the base hostname & protocol for your site
 twitter_username: cmpereira.si
 github_username:  cmpereirasi
